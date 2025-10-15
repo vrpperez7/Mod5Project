@@ -136,28 +136,25 @@ After completing the funnel analysis, we found that 23.5% of all sessions qualif
   * → Suggests **only** 13% of usage weeks align with *convenient behaviour*.
 * **RFM Results Interpretation:**
 
-  * Utility users have **Recency = 0 weeks** (currently active), **Frequency = 208**, **TB_used = 26.6K**, reinforcing essential usage patterns.
+ The analysis shows that most LinkNYC usage is driven by Engaged, High Value, and Quality sessions, with Convenient weeks accounting for only 13% of activity. Engaged users are the most recently active, while High Value and Quality sessions reflect consistent, high-bandwidth use. This pattern indicates that LinkNYC is primarily used as a reliable, habitual service, supporting its role as a functional public utility rather than a fleeting convenience.
+
+<img width="490" height="133" alt="Screenshot 2025-10-15 at 5 45 15 PM" src="https://github.com/user-attachments/assets/77555405-50e1-47da-bb71-4fdc3c2fb6b3" />
 
 ---
 
 ## 4. Interpretation & Insights
-
 ### 4.1 Evidence of Utility Behavior
 
-* Sustained quarterly engagement after 2023 rebound.
-* Dominance of “utility usage” segments in RFM analysis.
-* Low recency (continued activity) among high-usage cohorts.
-* Seasonal stability, particularly in Fall and Spring cohorts.
+Strong and consistent engagement among Engaged, High Value, and Quality sessions.\
+Low recency for Engaged weeks indicates ongoing, active usage.\
+High frequency and substantial TB usage for High Value and Quality sessions show meaningful, habitual interaction.\
+Seasonal patterns (Fall and Spring cohorts) demonstrate stable usage over time.
 
 ### 4.2 Evidence of Convenience Behavior
+Convenient weeks account for only 13% of usage, highlighting limited opportunistic use.
+Lower session frequency and smaller data consumption in Convenience weeks indicate occasional, non-essential usage.
 
-* Sharp declines in specific quarters (e.g. Q1 2021, Q3 2022).
-* Seasonal variability may indicate opportunistic use (e.g., weather, tourism).
-* Shorter session durations among low-tier segments.
-
-### 4.3 Synthesis:
-
-> *“While LinkNYC usage fluctuated early in the dataset, the predominance of persistent, high-volume users and recurring seasonal retention patterns suggest that LinkNYC functions more as a **public utility** than a fleeting convenience.”*
+Key Insight: Overall, the predominance of high-frequency, high-bandwidth segments confirms that LinkNYC functions more as a reliable public utility than a fleeting convenience.
 
 ---
 
