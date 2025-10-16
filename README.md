@@ -169,10 +169,15 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ## 6. Future Work & Recommendations
 
-* Expand segmentation using demographics or location granularity.
-* Model predictive retention based on early usage patterns.
-* Integrate weather and event data to separate environmental effects.
-* Present visualization dashboards (e.g., quarterly trend maps for stakeholders).
+**Phase 1:** Reframe LinkNYC as a public utility asset in CityBridge’s communications and advertiser outreach
+
+**Phase 2:** Revenue Optimization by deploying premium ad packages for high-engagement areas, using that to expand the program in low values ad zones like Brooklyn and the bronx
+
+**Phase 3:** Infrastructure & Experience Enhancement by adding engagement focused features, interactive content and design improvement
+
+**Phase 4:** Publish quarterly performance reports linking user engagement to ad revenue growth, highlighting public value metrics such as connectivity hours, wifi speed and community engagement for the CITY OF NEW YORK
+
+**RISK:**  The 2025 engagement drop may stem from ongoing churn; further investigation is needed, as rollout success could be at risk
 
 ---
 
