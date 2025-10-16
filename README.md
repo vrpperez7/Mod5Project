@@ -160,19 +160,34 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ## 5. Assumptions & Limitations
 
-* **Data completeness:** Assuming weekly data accurately reflects total usage (no missing nodes).
-* **User identity:** Sessions per client treated as unique users (may overcount shared devices).
-* **Temporal assumptions:** Cohorts defined by calendar seasons, not event-based factors.
-* **Measurement bias:** Median-based activation assumes symmetric data distribution.
+### Data Measurement Assumptions:
+- Data completeness: Assumes weekly data accurately reflects total usage, with no missing kiosks or nodes.
+- Measurement bias: Median-based activation assumes a symmetric distribution in the data (may not reflect true central tendency).
+- Utilizing aggregated data as unique: Treated aggregated session counts as individual/unique user interactions, which may lead to overgeneralization.
+
+### User Behavior Assumptions:
+- User identity: Sessions per client are treated as unique users, which may overcount usage from shared or public devices.
+- First three months of data recorded a high session use: Observed a spike in sessions in the early period of data, previous to COVID
+- After COVID, sessions dropped and didn’t recover: Noted a permanent decline in usage post-pandemic, suggesting behavioral shifts or reduced reliance.
+
+### Temporal Framework Assumptions:
+- Temporal assumptions: User cohorts are defined by calendar seasons rather than event-driven.
+
+### Conceptual Framing Assumptions:
+- We made our own assumptions of what’s considered a utility: Defined "utility" based on usage patterns and criteria, not a standard created by LinkNYC.
 
 ---
 
 ## 6. Future Work & Recommendations
 
-* Expand segmentation using demographics or location granularity.
-* Model predictive retention based on early usage patterns.
-* Integrate weather and event data to separate environmental effects.
-* Present visualization dashboards (e.g., quarterly trend maps for stakeholders).
+### Data Segmentation & Enrichment:
+- Expand segmentation using demographics or location granularity: Incorporate more detailed user or neighborhood-level insights to uncover deeper usage patterns.
+- Integrate weather and event data to separate environmental effects: Control for external factors like weather or public events that may influence kiosk usage.
+
+### Predictive Modeling:
+- Model predictive retention based on early usage patterns: Use initial engagement metrics to forecast long-term user retention or drop-off.
+### Stakeholder Communication
+- Present visualization dashboards (e.g., quarterly trend maps for stakeholders): Build interactive visual tools to communicate trends, engagement, and geographic usage shifts over time.
 
 ---
 
@@ -184,5 +199,3 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ---
 
-Would you like me to draft this README in **Markdown format with embedded visuals placeholders** (e.g., “Figure 1: Quarterly Trends”) — suitable for GitHub or stakeholder documentation?
-That would make it directly publishable and presentation-ready.
