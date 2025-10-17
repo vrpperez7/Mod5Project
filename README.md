@@ -1,4 +1,6 @@
 # LinkNYC Usage Analysis
+<img width="519" height="519" alt="image" src="https://github.com/user-attachments/assets/8352bccc-bf5c-435d-a32d-e104a5d858c5" />
+
 
 *Academic project analyzing a LinkNYC data using Python and Tableau. Applies Business analytics including Funnel, cohort, RFM segmentation to explore real-world business scenarios, uncover patterns, and generate actionable insights to support decisions for stakeholders*
 
@@ -18,7 +20,7 @@ This distinction matters for future funding and policy decisions. To explore it,
 ## 1. Executive Summary
 
 * **Objective:** Assess whether LinkNYC serves as a long-term public utility (consistent, essential use) or a short-term convenience (occasional, opportunistic use).
-* **Key Insight (teaser):** Our funnel analysis shows that 23.5% of total sessions reach the “High Value” stage, highlighting meaningful long-term engagement. Segmentation results reinforce this, with Engaged (64) and High Value (75) weeks representing the most consistent, high-impact usage, compared to Quality Sessions (122) and Convenient (39) weeks. Overall, these patterns suggest that LinkNYC functions more as a reliable public utility than a fleeting convenience.
+* **Key Insight (teaser):** Our funnel analysis shows that 23.5% of total sessions reach the “High Value” stage, highlighting meaningful long-term engagement. Segmentation results reinforce this, with Engaged (64) and High Value (75) weeks representing the most consistent, high-impact usage, compared to Quality Sessions (122) and Convenient (39) weeks. This shows that only **13%** of usage weeks align with **convenient behaviour**. Overall, these patterns suggest that LinkNYC functions more as a reliable public utility than a fleeting convenience.
 * **Methodology Overview**To evaluate whether LinkNYC functions as a utility or a convenience, we applied several complementary analytical approaches:
 
 1. **Session Analysis**: Measured sessions per user and total activity to gauge overall engagement intensity.
@@ -75,20 +77,17 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 
 * **Definition:** Weekly usage grouped by **seasonal cohorts** (Winter, Spring, Summer, Fall).
 * **Goal:** Identify seasonal retention patterns — do certain cohorts maintain activity longer?
-* **Key Finding Example:**
 
 <img width="768" height="171" alt="Screenshot 2025-10-15 at 4 34 40 PM" src="https://github.com/user-attachments/assets/6444bb4b-9bcf-4bc3-9723-f431d9364922" />
 
- * *“Summer and Fall cohorts exhibit a more sustained session averages while we have high fluctuations accross years for Spring and Winter Cohorts*
- * 
-* **Justification:** Season-based segmentation helps separate behavioral cycles from infrastructure effects.
+ * *“Summer and Fall cohorts exhibit a more sustained session while we have high fluctuations accross years for Spring and Winter Cohorts* 
 
 ---
 
-### 3.4 Fine-Grained Cohort (Monthly–Weekly Evolution)
+### 3.4 Monthly Cohort First quarter 2025 (Monthly–Weekly Evolution)
 
-* **Approach:** Within each 3-month season, track weekly session evolution.
-* **Purpose:** Reveal short-term engagement decay or persistence within a cohort.
+* **Approach:** Within the first quarter in 2025, track weekly session evolution.
+* **Purpose:** Reveal short-term engagement or persistence pattern within a cohort.
 * **Interpretation:** Gradual decline = convenience; steady use = utility.
   
 <img width="458" height="160" alt="Screenshot 2025-10-15 at 4 42 25 PM" src="https://github.com/user-attachments/assets/8683606c-29bd-47d6-9ede-0d3cbf301b6d" />
@@ -96,7 +95,7 @@ Together, these methods provide a multi-dimensional view of user behavior—link
 *Number of Sessions for each monthly cohort from week 1 to week 4*
 
 ---
-### 3.4 Funnel Analysis: Understanting User Progression and value Creation
+### 3.5 Funnel Analysis: Understanting User Progression and value Creation
 To assess how users interact with LinkNYC over time, we developed a four-stage engagement funnel reflecting the journey from casual to high-value usage. The stages were defined as:
 ****Step 1**: Total Sessions** – all recorded user sessions, representing initial access to the network.
 ****Step 2:** Session Quality**
@@ -115,7 +114,7 @@ After completing the funnel analysis, we found that 23.5% of all sessions qualif
 *Overall Conversion Funnel*
 <img width="650" height="500" alt="newplot" src="https://github.com/user-attachments/assets/0be4d42d-07d6-40ac-aaf8-3b51c8641721" />
 
-### 3.5 RFM Segmentation (Recency–Frequency–Monetary)
+### 3.6 RFM Segmentation (Recency–Frequency–Monetary)
 **Criteria:**
 - **Usage** = TB Downloaded(TB)
 - **duration** = Average session lenght (minutes)
@@ -165,5 +164,8 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 - Use this analysis to show both commercial value (consistent usage = ad ROI) and civic value (public connectivity impact).
 
 ---
+
+### 4.4 Slides link
+https://docs.google.com/presentation/d/16TzspxGnYVdPlgbSbmf9s45t-hRwqRBzpjMkg1IRt18/edit?usp=sharing
 
 
