@@ -158,31 +158,12 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ---
 
-## 5. Assumptions & Limitations
-
-* **Data completeness:** Assuming weekly data accurately reflects total usage (no missing nodes).
-* **User identity:** Sessions per client treated as unique users (may overcount shared devices).
-* **Temporal assumptions:** Cohorts defined by calendar seasons, not event-based factors.
-* **Measurement bias:** Median-based activation assumes symmetric data distribution.
-
----
-
-## 6. Future Work & Recommendations
-
-* Expand segmentation using demographics or location granularity.
-* Model predictive retention based on early usage patterns.
-* Integrate weather and event data to separate environmental effects.
-* Present visualization dashboards (e.g., quarterly trend maps for stakeholders).
+### 4.3 Recommendations
+- Leverage Utility - Level Engagement to Attract Advertisers
+- Monetize Meaningful Usage Through Premium Ad Products
+- Treat LinkNYC as an essential public service—invest in reliability, content quality, and local relevance to keep users returning.
+- Use this analysis to show both commercial value (consistent usage = ad ROI) and civic value (public connectivity impact).
 
 ---
 
-## 7. Appendix
 
-* **Formulas used** (Activation, Conversion, Retention, RFM)
-* **Code snippets** (segmentation function, cohort logic)
-* **Summary tables** of key metrics
-
----
-
-Would you like me to draft this README in **Markdown format with embedded visuals placeholders** (e.g., “Figure 1: Quarterly Trends”) — suitable for GitHub or stakeholder documentation?
-That would make it directly publishable and presentation-ready.
