@@ -156,8 +156,20 @@ Lower session frequency and smaller data consumption in Convenience weeks indica
 Key Insight: Overall, the predominance of high-frequency, high-bandwidth segments confirms that LinkNYC functions more as a reliable public utility than a fleeting convenience.
 
 ---
+### 4.3.1 User Behavior Assumptions:
+**User identity:**
+Sessions per client are treated as unique users, which may overcount usage from shared or public devices.
+The first three months of data recorded high session usage: Observed a spike in sessions in the early period of data, previous to COVID
+After COVID, sessions dropped and didn’t recover: Noted a permanent decline in usage post-pandemic, suggesting behavioral shifts or reduced reliance.
+### 4.3.2 Temporal Framework Assumptions:
+**Temporal assumptions:** User cohorts are defined by calendar seasons rather than event-driven.
+Conceptual Framing Assumptions:
+We made our own assumptions of what’s considered a utility: Defined "utility" based on usage patterns and criteria, not a standard created by LinkNYC.
+### 4.3.3. Conceptual Framing Assumptions:
 
-### 4.3 Recommendations
+---
+
+### 5.Recommendations
 - Leverage Utility - Level Engagement to Attract Advertisers
 - Monetize Meaningful Usage Through Premium Ad Products
 - Treat LinkNYC as an essential public service—invest in reliability, content quality, and local relevance to keep users returning.
@@ -165,7 +177,7 @@ Key Insight: Overall, the predominance of high-frequency, high-bandwidth segment
 
 ---
 
-### 4.4 Slides link
+### 6. Slides link
 https://docs.google.com/presentation/d/16TzspxGnYVdPlgbSbmf9s45t-hRwqRBzpjMkg1IRt18/edit?usp=sharing
 
 
